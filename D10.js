@@ -471,6 +471,10 @@ function seltag() {
   il testo contenuto in ogni tag <td> all'interno della pagina.
 */
 
+function stampa(){
+  let tag = document.getElementsByTagName("td")
+  console.log(tag.textContent)
+}
 
 
 /* ESERCIZIO 23
@@ -504,7 +508,10 @@ function svuotalista() {
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
-
+function aggiungiclasse(){
+  let tag = document.getElementsByTagName("tr")
+  tag.classList.add("test")
+}
 
 
 // [EXTRA] JS Avanzato
